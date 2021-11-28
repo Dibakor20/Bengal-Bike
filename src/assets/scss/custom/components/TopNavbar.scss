@@ -1,0 +1,8 @@
+.nav-link {
+    @include cfw-one;
+    padding: 0.5rem 1.5rem !important;
+    font-size: 0.9rem !important; 
+}
+.navbar-light .navbar-toggler{
+    background-color: $orange;
+}

@@ -11,6 +11,7 @@ $yellow:     #ffbc00;
 $green:      #0acf97;
 $teal:       #02a8b5;
 $cyan:       #39afd1;
+
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -157,7 +158,7 @@ $nav-link-padding-y:                .5rem;
 $nav-link-padding-x:                1rem;
 $nav-link-font-size:                null;
 $nav-link-font-weight:              null;
-$nav-link-color:                    null;
+$nav-link-color:                    #fff;
 $nav-link-hover-color:              null;
 $nav-link-transition:               color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 
