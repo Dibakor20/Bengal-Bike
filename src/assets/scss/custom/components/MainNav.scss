@@ -1,6 +1,4 @@
 .main-nav{
-    padding: 4rem 0;
-   
 
     .header-left{
         @include font-sans-bold;
@@ -8,7 +6,9 @@
         color: $orange !important;
         text-decoration: none;
     }
-   
+   input{
+       border-radius: 0.8rem;
+   }
    .nav-icon{
        font-size: 1.5rem;
    }

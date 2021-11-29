@@ -1,64 +1,75 @@
 
 
 // scss-docs-start color-variables
-$blue:       #2c8ef8;
-$indigo:     #727cf5;
-$purple:     #6b5eae;
-$pink:       #ff679b;
-$red:        #fa5c7c;
-$orange:     #fd7404;
-$yellow:     #ffbc00;
-$green:      #0acf97;
-$teal:       #02a8b5;
-$cyan:       #39afd1;
-$gray:       #333;
-$light-dark: #222;
-$dark-blue:  #021223;
+    $blue:       #2c8ef8;
+    $indigo:     #727cf5;
+    $purple:     #6b5eae;
+    $pink:       #ff679b;
+    $red:        #fa5c7c;
+    $orange:     #fd7404;
+    $yellow:     #ffbc00;
+    $green:      #0acf97;
+    $teal:       #02a8b5;
+    $cyan:       #39afd1;
+    $gray:       #333;
+    $light-dark: #222;
+    $dark-blue:  #021223;
 // scss-docs-end color-variables
 
 // scss-docs-start bg-variables
-.bg-gray{
-  background-color: $gray;
-}
-.bg-light-dark{
-  background-color: $light-dark !important;
-}
+
+    .bg-gray{
+      background-color: $gray;
+    }
+    .bg-light-dark{
+      background-color: $light-dark !important;
+    }
+
 // scss-docs-End bg-variables
 
 // input field start from here
-    
+
+    input:focus{
+      outline: 0 !important;
+      box-shadow: none !important;
+    }
+
 // input field end from here
 
 // button start here
 
+    .btn-dark-orange{
+      background-color: $orange !important;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 6px;
+    }
+    .btn:focus{
+      outline: 0 !important;
+      box-shadow: none !important;
+    }
 
 // button end here
 
 
 
 // scss-docs-start grid-breakpoints
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
+    $grid-breakpoints: (
+      xs: 0,
+      sm: 576px,
+      md: 768px,
+      lg: 992px,
+      xl: 1200px,
+      xxl: 1400px
+    );
 // scss-docs-end grid-breakpoints
 
-
-
-// Grid containers
-//
-// Define the maximum width of `.container` for different screen sizes.
-
 // scss-docs-start container-max-widths
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
+    $container-max-widths: (
+      sm: 540px,
+      md: 720px,
+      lg: 960px,
+      xl: 1140px,
+      xxl: 1320px
+    );
 // scss-docs-end container-max-widths
