@@ -6,7 +6,8 @@ const TopNavbar = () => {
     
     return (
         <div >
-            <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-light bg-gray">
+            <hr className='border-secondary mt-2' />
             <div className="container">
                 <Link className="navbar-brand text-white" to="/">English</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

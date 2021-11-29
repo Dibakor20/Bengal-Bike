@@ -1,7 +1,6 @@
 //Core files
 
 @import "./config/saas/variables";
-@import "./config/saas/custom-variables";
 @import "./config/saas/mixin";
 
 // Structure
@@ -15,6 +14,7 @@
 //Components
 
 @import "./custom/components/TopNavbar.scss";
+@import "./custom/components/MainNav.scss";
 
 // pages
 

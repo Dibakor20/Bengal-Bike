@@ -1,0 +1,18 @@
+.main-nav{
+    padding: 4rem 0;
+   
+
+    .header-left{
+        @include font-sans-bold;
+        font-size: 2.5rem;
+        color: $orange !important;
+        text-decoration: none;
+    }
+   
+   .nav-icon{
+       font-size: 1.5rem;
+   }
+    
+
+}
+
