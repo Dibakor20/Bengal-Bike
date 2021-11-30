@@ -1,6 +1,7 @@
 import React from 'react';
 import MainNav from '../../components/common/navbar/MainNav';
 import TopNavbar from '../../components/common/navbar/TopNavbar';
+import Banner from '../../components/home/banner/Banner';
 
 const HomePage = () => {
     const screenWidth = window.innerWidth
@@ -17,7 +18,7 @@ const HomePage = () => {
                       <TopNavbar />
                     </div> 
             }
-           
+                      <Banner/>
         </>
     );
 };
