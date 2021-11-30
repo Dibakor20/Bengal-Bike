@@ -10,7 +10,7 @@ const MainNav = () => {
   const screenWidth = window.innerWidth;
   return (
     <>
-      <div className="main-nav py-md-5">
+      <div className="main-nav py-md-5 bg-light-dark">
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-6 order-1">
@@ -45,9 +45,9 @@ const MainNav = () => {
                 screenWidth < 768 ? "order-2 my-3" : "order-3"
               }`}
             >
-              <div className="d-flex align-items-center justify-content-center">
+              <div className="d-flex align-items-center justify-content-center text-white">
                 <FontAwesomeIcon className="nav-icon" icon={faUserAlt} />
-                <span className="mx-3">
+                <span className="mx-3 ">
                   Sign In
                   <br />
                   Register
@@ -57,7 +57,7 @@ const MainNav = () => {
                   className="nav-icon ms-3"
                   icon={faShoppingCart}
                 />
-                <span className="badge badge-danger text-dark">0</span>
+                <span className="badge badge-danger text-white">0</span>
               </div>
             </div>
           </div>

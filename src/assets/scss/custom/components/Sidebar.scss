@@ -1,0 +1,30 @@
+.shop-category{
+    border: 2px solid $orange;
+    border-radius: 10px;
+    font-size: 1rem;
+
+    p{
+        background-color: $orange;
+        padding: 1rem 1rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border-radius: 0.9rem;
+        margin: -1px;
+        width: 101%
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    } 
+    ul li{
+        list-style: none;
+        padding: 0.7rem 1rem;
+        margin: 0
+    }
+    ul li .link{
+        @include font-sans-semi-bold;
+        font-size: 0.9rem;
+        color:$gray;
+        text-decoration: none;
+    }
+}

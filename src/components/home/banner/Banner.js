@@ -1,4 +1,5 @@
 import React from 'react';
+import Sidebar from '../../common/sidebar/Sidebar';
 import BannerSlider from './BannerSlider';
 import RightBannerAdd from './RightBannerAdd';
 
@@ -8,9 +9,9 @@ const Banner = () => {
             <div className="container my-5">
                 <div className="row">
                     <div className="col-md-2 px-0">
-                        <h3>Left - Sidebar</h3>
+                        <Sidebar/>
                     </div>
-                    <div className="col-md-8 mb-5">
+                    <div className="col-md-8">
                         <BannerSlider/>
                     </div>
                     <div className="col-md-2">
