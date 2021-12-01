@@ -4,7 +4,7 @@
 @import "./config/saas/mixin";
 
 // Structure
-
+@import "./custom/structure/Slider.scss";
 
 
 //Fonts
@@ -16,6 +16,7 @@
 @import "./custom/components/TopNavbar.scss";
 @import "./custom/components/MainNav.scss";
 @import "./custom/components/Sidebar.scss";
+@import "./custom/components/AddOffer.scss";
 
 // pages
 

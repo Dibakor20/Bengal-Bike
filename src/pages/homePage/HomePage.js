@@ -1,4 +1,5 @@
 import React from 'react';
+import AddOffer from '../../components/advertisement/AddOffer';
 import MainNav from '../../components/common/navbar/MainNav';
 import TopNavbar from '../../components/common/navbar/TopNavbar';
 import Banner from '../../components/home/banner/Banner';
@@ -18,7 +19,8 @@ const HomePage = () => {
                       <TopNavbar />
                     </div> 
             }
-                      <Banner/>
+        <Banner />
+        <AddOffer/>
         </>
     );
 };

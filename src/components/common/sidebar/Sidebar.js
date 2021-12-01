@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const Sidebar = () => {
     return (
         <>
-            <div className="shop-category d-none d-md-block">
+            <div className="shop-category">
                 <p className="category-item">
                     <FontAwesomeIcon className="icon me-2" icon={faBars} />
                     SHOP BY CATEGORY</p>

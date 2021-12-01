@@ -18,8 +18,20 @@
     } 
     ul li{
         list-style: none;
-        padding: 0.7rem 1rem;
-        margin: 0
+        padding: 1rem 1rem;
+        margin: 0;
+
+        @media screen and (max-width:1400px) {
+            padding: 0.7rem 0.9rem !important;
+        }
+
+        @media screen and (max-width:1200px) {
+            padding: 0.2rem 0.9rem !important;
+        }
+
+        @media screen and (max-width:992px) {
+            padding: 0rem 0rem !important;
+        }
     }
     ul li .link{
         @include font-sans-semi-bold;

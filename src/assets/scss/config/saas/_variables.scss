@@ -44,6 +44,7 @@
       font-weight: 600;
       border-radius: 6px;
     }
+ 
     .btn:focus{
       outline: 0 !important;
       box-shadow: none !important;
@@ -59,7 +60,7 @@
       sm: 576px,
       md: 768px,
       lg: 992px,
-      xl: 1200px,
+      // xl: 1200px,
       xxl: 1400px
     );
 // scss-docs-end grid-breakpoints
