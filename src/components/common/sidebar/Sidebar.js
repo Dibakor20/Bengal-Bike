@@ -17,11 +17,12 @@ const Sidebar = () => {
                     <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />New Arrivals</NavLink></li>
                     <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Laptop & Computer</NavLink></li>
                     <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Mobile & Cover</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Accessories</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Interior Design</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Game & Sports</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Furniture & Lighting</NavLink></li>
+                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />New Arrivals</NavLink></li>
+                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Laptop & Computer</NavLink></li>
+                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Mobile & Cover</NavLink></li>
+                 
                     <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />More</NavLink></li>
+                   
                 </ul>
             </div>
         </>

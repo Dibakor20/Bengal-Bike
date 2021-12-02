@@ -6,7 +6,7 @@
     $purple:     #6b5eae;
     $pink:       #ff679b;
     $red:        #fa5c7c;
-    $orange:     #fd7404;
+    $orange:     #ff7302;
     $yellow:     #ffbc00;
     $green:      #0acf97;
     $teal:       #02a8b5;
@@ -24,7 +24,12 @@
     .bg-light-dark{
       background-color: $light-dark !important;
     }
-
+    .bg-red{
+      background-color: red !important;
+    }
+    .bg-dark-orange{
+      background-color:#ff7302 !important;
+    }
 // scss-docs-End bg-variables
 
 // input field start from here
@@ -60,7 +65,7 @@
       sm: 576px,
       md: 768px,
       lg: 992px,
-      // xl: 1200px,
+      xl: 1200px,
       xxl: 1400px
     );
 // scss-docs-end grid-breakpoints

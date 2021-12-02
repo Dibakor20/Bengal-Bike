@@ -8,15 +8,13 @@ const Banner = () => {
         <>
             <div className="container mt-4 mt-md-5 mb-3">
                 <div className="row">
-                    <div className="col-lg-2 col-md-3 col-5 px-0">
+                    <div className="col-lg-2 col-md-3 col-sm-4 col-5 d-none d-md-block px-0">
                         <Sidebar/>
                     </div>
-                    <div className="col-lg-8 col-md-7 col-7">
+                    <div className="col-lg-10 col-md-9 col-sm-12 col-12 ">
                         <BannerSlider/>
                     </div>
-                    <div className="col-lg-2 col-md-2">
-                        <RightBannerAdd/>
-                        </div>
+                  
                 </div>
             </div>
         </>

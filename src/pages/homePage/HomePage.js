@@ -3,6 +3,7 @@ import AddOffer from '../../components/advertisement/AddOffer';
 import MainNav from '../../components/common/navbar/MainNav';
 import TopNavbar from '../../components/common/navbar/TopNavbar';
 import Banner from '../../components/home/banner/Banner';
+import OfferCount from '../../components/home/upCommingOffer/OfferCount';
 
 const HomePage = () => {
     const screenWidth = window.innerWidth
@@ -20,7 +21,8 @@ const HomePage = () => {
                     </div> 
             }
         <Banner />
-        <AddOffer/>
+        <AddOffer />
+        <OfferCount/>
         </>
     );
 };
