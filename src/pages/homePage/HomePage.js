@@ -1,5 +1,6 @@
 import React from 'react';
 import AddOffer from '../../components/advertisement/AddOffer';
+import Footer from '../../components/common/footer/Footer';
 import MainNav from '../../components/common/navbar/MainNav';
 import TopNavbar from '../../components/common/navbar/TopNavbar';
 import Banner from '../../components/home/banner/Banner';
@@ -26,7 +27,8 @@ const HomePage = () => {
         <AddOffer />
         <OfferCount />
         <BlogCard />
-        <Brand/>
+        <Brand />
+        <Footer/>
         </>
     );
 };
