@@ -4,19 +4,22 @@ import ProductsCard from '../../common/products/ProductsCard';
 const LatestProduct = () => {
     return (
         <>
-            <div className="latest-product">
-                <div className="container my-5">
-                <div className="d-flex justify-content-between">
+            <div className="latest-product my-5">
+                <div className="container py-5">
+                <div className="d-flex justify-content-between my-4">
                         <h2 className="main-title">New Product</h2>
                         <h2 className="main-title">See All</h2>
                     </div>
                     <div className="product-section">
+                        <div className="row">
                         {
-                            FakeData.map((product) =>
-                                <div className="col-md-2">
+                            FakeData.slice(0,6).map((product) =>
+                                <div className="col-lg-2 col-md-3 col-6">
                                     <ProductsCard product={product }/>
-                            </div>)
-                        }
+                                </div>
+                            )
+                            }
+                            </div>
                     </div>
                 </div>
             </div>

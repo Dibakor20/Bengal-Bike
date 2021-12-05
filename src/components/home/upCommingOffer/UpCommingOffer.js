@@ -27,7 +27,7 @@ const UpCommingOffer = () => {
                       </div>
                   </div>
                   <div className="col-md-6 col-sm-5">
-                    <img src={mainOffer} alt="" className="main-offer-img" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJjylDHJKNnIyWRpIycB8I6KaXDmpPylTtw&usqp=CAU" alt="" className="main-offer-img" />
                   </div>
         </div>
       </div>

@@ -13,10 +13,10 @@ const BannerSlider = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={sliderOne} class="d-block slider-img"  alt="..." />
+                        <img src="https://stimg.cardekho.com/images/uploadimages/1637121305854/Desktop-Banner-English.jpg" class="d-block slider-img"  alt="..." />
                     </div>
                     <div class="carousel-item">
-                    <img src={sliderTwo} class="d-block slider-img" alt="..." />
+                    <img src="https://stimg.cardekho.com/images/uploadimages/1637121305854/Desktop-Banner-English.jpg" class="d-block slider-img" alt="..." />
 
                     </div>
                     

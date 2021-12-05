@@ -2,31 +2,31 @@ import React from 'react';
 
 const blog = [
     {
-        img: "https://i.ibb.co/8Bdyv33/blog-pic-1.jpg",
+        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ac2953ae929.jpg",
         title: "LOREM IPSUM DOLOR SIT",
         date: "18 December 2021",
         description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
     },
     {
-        img: "https://i.ibb.co/8Bdyv33/blog-pic-1.jpg",
+        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ac62bc23a7c.jpg",
         title: "LOREM IPSUM DOLOR SIT",
         date: "18 December 2021",
         description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
     },
     {
-        img: "https://i.ibb.co/8Bdyv33/blog-pic-1.jpg",
+        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ab66298643c.jpeg",
         title: "LOREM IPSUM DOLOR SIT",
         date: "18 December 2021",
         description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
     },
     {
-        img: "https://i.ibb.co/8Bdyv33/blog-pic-1.jpg",
+        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ab64d7adee9.jpeg",
         title: "LOREM IPSUM DOLOR SIT",
         date: "18 December 2021",
         description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
     },
     {
-        img: "https://i.ibb.co/8Bdyv33/blog-pic-1.jpg",
+        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ab64d7adee9.jpeg",
         title: "LOREM IPSUM DOLOR SIT",
         date: "18 December 2021",
         description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
