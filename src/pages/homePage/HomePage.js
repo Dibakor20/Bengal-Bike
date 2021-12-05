@@ -6,6 +6,7 @@ import TopNavbar from '../../components/common/navbar/TopNavbar';
 import Banner from '../../components/home/banner/Banner';
 import BlogCard from '../../components/home/blogCard/BlogCard';
 import Brand from '../../components/home/brand/Brand';
+import LatestProduct from '../../components/home/product/LatestProduct';
 import OfferCount from '../../components/home/upCommingOffer/OfferCount';
 
 const HomePage = () => {
@@ -26,6 +27,7 @@ const HomePage = () => {
         <Banner />
         <AddOffer />
         <OfferCount />
+        <LatestProduct/>
         <BlogCard />
         <Brand />
         <Footer/>
