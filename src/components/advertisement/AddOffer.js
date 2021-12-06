@@ -5,7 +5,7 @@ const AddOffer = () => {
     return (
         <>
             <div className="container mb-5">
-                <img src="https://www.heromotocorp.com/en-bd/images/home-banner/banner-Passion-x-pro-2020.jpg" alt="" className="bike-add" />       
+                <img src="https://www.motorcyclevalley.com/images/ads/Suzuki-2021-11-04.webp" alt="" className="bike-add" />       
             </div>
         </>
     );

@@ -28,7 +28,7 @@ const ProductsCard = ({ product }) => {
                         <FontAwesomeIcon className="icon" icon={faStar} />
 
                     </div>
-                    <NavLink className="product-title"to={`/product/${id}`}>{title}</NavLink>
+                    <NavLink className="product-title"to={`/product/${title}`}>{title}</NavLink>
 
                     <p className="price"><span>{discountPrice}</span>{ price}</p>
                 </div>

@@ -7,7 +7,7 @@ const LatestProduct = () => {
             <div className="latest-product my-5">
                 <div className="container py-5">
                 <div className="d-flex justify-content-between my-4">
-                        <h2 className="main-title">New Product</h2>
+                        <h2 className="main-title">Latest Bike</h2>
                         <h2 className="main-title">See All</h2>
                     </div>
                     <div className="product-section">

@@ -11,13 +11,13 @@ const UpCommingOffer = () => {
         </div>
               <div className="row justify-content-center align-items-center h-100">
                   <div className="col-md-6 col-sm-7 mt-lg-0 mt-4 px-5">
-                  <h3>Occaecat Voluptas</h3>
+                  <h3 className="up-comming">Up Commings Bike</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et autem saepe sequi, repellat
                             </p>
                             <p className="price">
-                                <span className="price-tag">$109.67</span>
+                                <span className="price-tag">180000</span>
                                 <span className="discount-offer mx-2">-6%</span>
-                                <span>$92.87</span>
+                                <span>150000</span>
                       </p>
                       <div className="d-flex offer-count">
                           <p className="text-center"><span className="border-round d-block">439</span>Days</p>

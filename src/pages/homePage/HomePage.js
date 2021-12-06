@@ -6,7 +6,9 @@ import TopNavbar from '../../components/common/navbar/TopNavbar';
 import Banner from '../../components/home/banner/Banner';
 import BlogCard from '../../components/home/blogCard/BlogCard';
 import Brand from '../../components/home/brand/Brand';
+import Features from '../../components/home/feature/Features';
 import LatestProduct from '../../components/home/product/LatestProduct';
+import PopularProduct from '../../components/home/product/PopularProduct';
 import OfferCount from '../../components/home/upCommingOffer/OfferCount';
 
 const HomePage = () => {
@@ -27,7 +29,9 @@ const HomePage = () => {
         <Banner />
         <AddOffer />
         <OfferCount />
-        <LatestProduct/>
+        <LatestProduct />
+        <Features/>
+        <PopularProduct/>
         <BlogCard />
         <Brand />
         <Footer/>

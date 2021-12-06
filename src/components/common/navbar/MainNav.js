@@ -15,7 +15,7 @@ const MainNav = () => {
           <div className="row">
             <div className="col-md-3 col-6 order-1">
               <NavLink className="header-left" to="/">
-                <span>Pixi</span>Shop
+                <span>Bengal</span>Bikes
               </NavLink>
             </div>
             <div
