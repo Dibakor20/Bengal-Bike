@@ -13,7 +13,6 @@ const SingleProduct = () => {
         <>  
             <TopNavbar />
             <div className='my-4'><AddOffer/></div>
-            
             <ProductDetails productData={ productDetails }/>
         </>
     );

@@ -1,7 +1,7 @@
 const FakeData = [
     {
         productId: 111,
-        category:"Tvs",
+        category:"TVS",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "TVS Jupiter",
         price: 180000,
@@ -9,7 +9,7 @@ const FakeData = [
     },
     {
         productId: 1,
-        category:"Tvs",
+        category:"TVS",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "Honda X",
         price: 180000,
@@ -17,7 +17,7 @@ const FakeData = [
     },
     {
         productId: 2,
-        category:"Tv",
+        category:"TVS",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "Yamaha FZS",
         price: 180000,
@@ -25,7 +25,7 @@ const FakeData = [
     },
     {
         productId: 3,
-        category:"Tv",
+        category:"TVS",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "New Suzuki",
         price: 180000,
@@ -33,7 +33,7 @@ const FakeData = [
     },
     {
         productId: 5,
-        category:"TVS Apache",
+        category:"TVS",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "TVS Jupiter",
         price: 180000,
@@ -41,7 +41,7 @@ const FakeData = [
     },
     {
         productId: 6,
-        category:"Tvs",
+        category:"TVS",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "Bajaj",
         price: 180000,
@@ -49,7 +49,7 @@ const FakeData = [
     },
     {
         productId: 7,
-        category:"Tvs",
+        category:"TVS",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "Hero Thriller",
         price: 180000,
@@ -57,7 +57,7 @@ const FakeData = [
     },
     {
         productId: 8,
-        category:"Tvs",
+        category:"TVS",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "TVS Wego",
         price: 180000,
@@ -65,7 +65,7 @@ const FakeData = [
     },
     {
         productId: 9,
-        category:"Tvs",
+        category:"HONDA",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "TVS Ntorq",
         price: 180000,
@@ -73,7 +73,7 @@ const FakeData = [
     },
     {
         productId: 10,
-        category:"Tvs",
+        category:"HONDA",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "TVS Jupiter",
         price: 180000,
@@ -81,7 +81,7 @@ const FakeData = [
     },
     {
         productId: 11,
-        category:"Tvs",
+        category:"HONDA",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "Suzuki",
         price: 180000,
@@ -89,7 +89,7 @@ const FakeData = [
     },
     {
         productId: 12,
-        category:"Tvs",
+        category:"HONDA",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "Vespa VXL",
         price: 180000,
@@ -97,7 +97,7 @@ const FakeData = [
     },
     {
         productId: 13,
-        category:"Tvs",
+        category:"HONDA",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "Honda ADV",
         price: 180000,
@@ -105,7 +105,7 @@ const FakeData = [
     },
     {
         productId: 14,
-        category:"Tvs",
+        category:"HONDA",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "Runner",
         price: 180000,
@@ -113,7 +113,7 @@ const FakeData = [
     },
     {
         productId: 15,
-        category:"Tvs",
+        category:"HONDA",
         img: "https://bd.gaadicdn.com/processedimages/tvs/tvs-jupiter/494X300/tvs-jupiter5e98386b0a37b.jpg?imwidth=400&impolicy=resize",
         title: "R15 ",
         price: 180000,
