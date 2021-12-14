@@ -12,7 +12,6 @@ const BlogCard = ({ blog }) => {
                                             <h5 class="blog-title">{ title}</h5>
                                             <p class="blog-subtitle">{date}</p>
                                             <p class="blog-text">{ description.slice(0,100)}</p>
-                                            {/* <button class="btn blog-button">Read more</button> */}
                                             <NavLink className="btn blog-button" to={`/blog/${title}`}>Read more</NavLink>
                                 </div>
                                 </div>
