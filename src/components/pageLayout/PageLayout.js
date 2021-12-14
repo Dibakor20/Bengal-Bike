@@ -6,9 +6,6 @@ import Footer from '../common/footer/Footer';
 import TopNavbar from '../common/navbar/TopNavbar';
 import ProductCardTwo from '../common/products/ProductCardTwo';
 import ProductsCard from '../common/products/ProductsCard';
-import Sidebar from '../common/sidebar/Sidebar';
-import LatestProduct from '../home/product/LatestProduct';
-import UpCommingOffer from '../home/upCommingOffer/UpCommingOffer';
 
 const PageLayout = ({ page }) => {
     const [brandBike, setBrandBike] = useState([])
@@ -43,7 +40,7 @@ const PageLayout = ({ page }) => {
                         
                 {
                         brandBike.map((bike) =>
-                            <div className='col-lg-2 col-md-4 col-6 my-2'>
+                            <div className='col-lg-3 col-md-4 col-6 my-2'>
                                 <ProductsCard product={bike} />
                             </div>)
                 }

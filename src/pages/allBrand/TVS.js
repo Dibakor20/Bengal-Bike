@@ -3,10 +3,10 @@ import PageLayout from '../../components/pageLayout/PageLayout';
 
 const TVS = () => {
     return (
-        <>
+        <div>
             <PageLayout page={ 'TVS'}/>  
           
-        </>
+        </div>
     );
 };
 

@@ -1,67 +1,22 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const blog = [
-    {
-        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ac2953ae929.jpg",
-        title: "LOREM IPSUM DOLOR SIT",
-        date: "18 December 2021",
-        description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
-    },
-    {
-        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ac62bc23a7c.jpg",
-        title: "LOREM IPSUM DOLOR SIT",
-        date: "18 December 2021",
-        description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
-    },
-    {
-        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ab66298643c.jpeg",
-        title: "LOREM IPSUM DOLOR SIT",
-        date: "18 December 2021",
-        description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
-    },
-    {
-        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ab64d7adee9.jpeg",
-        title: "LOREM IPSUM DOLOR SIT",
-        date: "18 December 2021",
-        description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
-    },
-    {
-        img: "https://bd.gaadicdn.com/upload/userfiles/images/61ab64d7adee9.jpeg",
-        title: "LOREM IPSUM DOLOR SIT",
-        date: "18 December 2021",
-        description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cumque."
-    },
-]
-
-const BlogCard = () => {
+const BlogCard = ({ blog }) => {
+    const {img,title,date,description} = blog
 
     return (
-        <>
-         
-                <div className="container my-5">
-                <div className="my-4 d-flex justify-content-between">
-                        <h3 className="main-title">Our Latest blog</h3>
-                        <h3 className="main-title">See All</h3>
-                </div>
-                <div className="row justify-content-between">
-                        {
-                            blog.map((data) => 
-                                <div className="col-lg-2 col-md-3  col-sm-4 col-6 px-0">
-                                <div class="card me-3 me-lg-0 my-3 my-lg-0">
-                                <img src={data.img} class="card-img-top" alt="..." className="w-100"/>
+        <>   
+                  <div class="card me-3 me-lg-0 my-3 my-lg-0">
+                                <img src={img} class="card-img-top" alt="..." className="w-100"/>
                                 <div class="card-body">
-                                            <h5 class="blog-title">{ data.title}</h5>
-                                            <p class="blog-subtitle">{data.date}</p>
-                                            <p class="blog-text">{ data.description}</p>
-                                    <button class="btn blog-button">Read more</button>
+                                            <h5 class="blog-title">{ title}</h5>
+                                            <p class="blog-subtitle">{date}</p>
+                                            <p class="blog-text">{ description.slice(0,100)}</p>
+                                            {/* <button class="btn blog-button">Read more</button> */}
+                                            <NavLink className="btn blog-button" to={`/blog/${title}`}>Read more</NavLink>
                                 </div>
                                 </div>
-                                </div>
-                            )
-                   }
-                    </div>
-                    </div>
-            
+                 
         </>
     );
 };

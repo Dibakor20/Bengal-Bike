@@ -1,12 +1,12 @@
 import React from 'react';
 import PageLayout from '../../components/pageLayout/PageLayout';
 
-const HONDA = () => {
+const BMW = () => {
     return (
         <div>
-         <PageLayout page={"HONDA"} />
+            <PageLayout page={"BMW"} />
         </div>
     );
 };
 
-export default HONDA;
+export default BMW;

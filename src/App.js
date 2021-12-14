@@ -11,10 +11,11 @@ import HomePage from "./pages/homePage/HomePage";
 import SingleProduct from "./pages/products/SingleProduct";
 import TVS from "./pages/allBrand/TVS";
 import HONDA from "./pages/allBrand/HONDA";
+import SingleBlog from "./pages/blog/SingleBlog";
 
 
 const routes = [
-  'TVS','HERO','HONDA'
+  'TVS','HERO','HONDA','BAJAJ','YAMAHA','SUZUKI','ROYELENFIELD','BMW'
 ]
 
 
@@ -28,8 +29,7 @@ function App() {
         }
         <Route path="/" element={<HomePage />} />
         <Route path="/product/:title" element={<SingleProduct />} />
-        <Route path="/TVS" element={<TVS />} />
-        <Route path="/TVS" element={<HONDA/>} />
+        <Route path="/blog/:title" element={<SingleBlog />} />  
            
         </Routes>
      </AppContext>

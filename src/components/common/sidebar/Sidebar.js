@@ -13,13 +13,14 @@ const Sidebar = () => {
                     SHOP BY CATEGORY</p>
                 <ul>
                     <li><NavLink className="link" to="/TVS"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />TVS</NavLink></li>
+                    <li><NavLink className="link" to="/HERO"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />HERO</NavLink></li>
                     <li><NavLink className="link" to="/HONDA"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />HONDA</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />New Arrivals</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Laptop & Computer</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Mobile & Cover</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />New Arrivals</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Laptop & Computer</NavLink></li>
-                    <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Mobile & Cover</NavLink></li>
+                    <li><NavLink className="link" to="/BAJAJ"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />BAJAJ</NavLink></li>
+                  
+                    <li><NavLink className="link" to="/YAMAHA"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />YAMAHA</NavLink></li>
+                    <li><NavLink className="link" to="/SUZUKI"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />SUZUKI</NavLink></li>
+                    <li><NavLink className="link" to="/ROYELENFIELD"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />Royal Enfield</NavLink></li>
+                    <li><NavLink className="link" to="/BMW"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />BMW</NavLink></li>
                  
                     <li><NavLink className="link" to="/shop"> <FontAwesomeIcon className="icon me-2" icon={faArrowRight} />More</NavLink></li>
                    
