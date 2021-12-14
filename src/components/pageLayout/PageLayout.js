@@ -4,8 +4,8 @@ import AddOffer from '../advertisement/AddOffer';
 import HomeLeftAdd from '../advertisement/HomeLeftAdd';
 import Footer from '../common/footer/Footer';
 import TopNavbar from '../common/navbar/TopNavbar';
-import ProductCardTwo from '../common/products/ProductCardTwo';
-import ProductsCard from '../common/products/ProductsCard';
+import ProductCardTwo from '../common/allCard/ProductCardTwo';
+import ProductsCard from '../common/allCard/ProductsCard';
 
 const PageLayout = ({ page }) => {
     const [brandBike, setBrandBike] = useState([])

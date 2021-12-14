@@ -1,6 +1,6 @@
 import React from 'react';
 import FakeData from '../../../FakeData';
-import ProductsCard from '../../common/products/ProductsCard';
+import ProductsCard from '../../common/allCard/ProductsCard';
 const LatestProduct = () => {
     return (
         <>

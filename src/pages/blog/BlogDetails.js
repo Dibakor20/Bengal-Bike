@@ -1,8 +1,7 @@
 import React from 'react';
 import BlogData from '../../BlogData';
 import HomeLeftAdd from '../../components/advertisement/HomeLeftAdd';
-import BlogCard from '../../components/home/blogCard/BlogCard';
-import BlogCardTwo from '../../components/home/blogCard/BlogCardTwo';
+import BlogCardTwo from '../../components/common/allCard/BlogCardTwo';
 
 const BlogDetails = ({ blog }) => {
     const { img, title, date, description } = blog

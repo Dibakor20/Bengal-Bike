@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogData from '../../../BlogData';
-import BlogCard from './BlogCard';
+import BlogCard from '../../common/allCard/BlogCard';
 
 const Blog = () => {
     return (
